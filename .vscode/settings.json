@@ -1,0 +1,7 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "[html]": {
+    "editor.acceptSuggestionOnEnter": "on",
+  }
+}
