@@ -9,7 +9,7 @@
   <body>
     <section>
       <nav>
-        <img src="./assets/FES.svg" class="logo" alt="FES logo">
+        <img src="./assets/FES.svg" class="logo" alt="FES logo" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -20,11 +20,13 @@
         <div class="row">
           <div>
             <h1>Best place to learn Frontend</h1>
-            <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
             <button>Start Now</button>
           </div>
           <figure>
-            <img src="./assets/laptop.png" alt="home page image">
+            <img src="./assets/laptop.png" alt="home page image" />
           </figure>
         </div>
       </header>
@@ -33,57 +35,77 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora vero, deserunt neque doloremque nesciunt esse voluptatem laudantium architecto sint adipisci ipsam animi placeat laborum, perspiciatis incidunt ullam, quia ab.
-            </p>
-            <p class="section__description--text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora vero, deserunt neque doloremque nesciunt esse voluptatem laudantium architecto sint adipisci ipsam animi placeat laborum, perspiciatis incidunt ullam, quia ab.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio tempora vero, deserunt neque doloremque nesciunt esse
+                voluptatem laudantium architecto sint adipisci ipsam animi
+                placeat laborum, perspiciatis incidunt ullam, quia ab.
+              </p>
+              <p class="section__description--text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio tempora vero, deserunt neque doloremque nesciunt esse
+                voluptatem laudantium architecto sint adipisci ipsam animi
+                placeat laborum, perspiciatis incidunt ullam, quia ab.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./assets/about.jpg" alt="about page image" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./assets/about.jpg" alt="about page image">
-          </figure>
         </div>
       </section>
-        
+
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <figure class="about__img--wrapper">
-            <img src="./assets/discord.png" alt="discord logo">
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora vero, deserunt neque doloremque nesciunt esse voluptatem laudantium architecto sint adipisci ipsam animi placeat laborum, perspiciatis incidunt ullam, quia ab.
-            </p>
-            <p class="section__description--text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora vero, deserunt neque doloremque nesciunt esse voluptatem laudantium architecto sint adipisci ipsam animi placeat laborum, perspiciatis incidunt ullam, quia ab.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img src="./assets/discord.png" alt="discord logo" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio tempora vero, deserunt neque doloremque nesciunt esse
+                voluptatem laudantium architecto sint adipisci ipsam animi
+                placeat laborum, perspiciatis incidunt ullam, quia ab.
+              </p>
+              <p class="section__description--text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio tempora vero, deserunt neque doloremque nesciunt esse
+                voluptatem laudantium architecto sint adipisci ipsam animi
+                placeat laborum, perspiciatis incidunt ullam, quia ab.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-        
+
       <section id="contact">
         <h2>Contact</h2>
         <form>
           <label for="email">Email</label>
-          <input type="email" placeholder="jane@example.com" required>
+          <input type="email" placeholder="jane@example.com" required />
           <label for="message">Message</label>
-          <textarea type="message" placeholder="Nice website, let's connect!" required></textarea>
+          <textarea
+            type="message"
+            placeholder="Nice website, let's connect!"
+            required
+          ></textarea>
           <button type="submit">Contact Us!</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" alt="FES logo">
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#">Courses</a>
+      <img class="footer__logo" src="./assets/FES.svg" alt="FES logo" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
